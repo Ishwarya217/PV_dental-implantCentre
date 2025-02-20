@@ -16,6 +16,15 @@ const addEventOnElem = function (elem, type, callback) {
   }
 }
 
+document.getElementById("appointmentForm").addEventListener("submit", function(event) {
+  let phone = document.getElementById("phone").value;
+  if (phone.length !== 10 || isNaN(phone)) {
+      alert("Please enter a valid 10-digit phone number.");
+      event.preventDefault();
+  }
+});
+
+
 
 
 /**
