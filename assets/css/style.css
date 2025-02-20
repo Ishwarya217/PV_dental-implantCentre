@@ -188,15 +188,6 @@ body {
   object-fit: cover;
 }
 
-.book-appointment-btn {
-  font-size: 16px;  /* Adjust font size */
-  padding: 10px 20px;  /* Adjust padding */
-  width: auto;  /* Prevent it from being too wide */
-  max-width: 200px;  /* Limit the max width */
-  display: block;
-  margin: 0 auto;  /* Center the button */
-}
-
 /*-----------------------------------*\
   #HEDER
 \*-----------------------------------*/
