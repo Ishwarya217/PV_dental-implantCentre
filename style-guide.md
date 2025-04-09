@@ -88,8 +88,8 @@ Ionicon
 ## Border Radius
 
 ``` css
---radius-6: 6px;
---radius-4: 4px;
+--radius-6: 8px;
+--radius-4: 6px;
 ```
 
 ## Transition
